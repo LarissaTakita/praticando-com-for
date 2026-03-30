@@ -1,7 +1,7 @@
 //1 
 function teste1 () {
     console.clear();
-    console.log('⭕Contagem simples');
+    console.log('Teste 1 -⭕Contagem simples');
         for (let i = 1; i <= 10; i++) {
             console.log(i);
         }
@@ -10,7 +10,7 @@ function teste1 () {
 //2
 function teste2 () {
     console.clear();
-    console.log('⭕Contagem regressiva');
+    console.log('Teste 2 -⭕Contagem regressiva');
         for (let i = 10; i >= 1; i--) {
             console.log(i);
         }
@@ -20,7 +20,7 @@ function teste2 () {
 //3
 function teste3 () {
     console.clear();
-    console.log('⭕Números pares');
+    console.log('Teste 3 -⭕Números pares');
         for (let i = 0; i <= 10; i +=2) {
             console.log(i);
         }
@@ -30,7 +30,7 @@ function teste3 () {
 //4 - travei peguei resposta
 function teste4 () {
     console.clear();
-    console.log('🚫Soma dos números');
+    console.log('Teste 4 -🚫Soma dos números');
         let array = [];
         let soma = 0
         for (let i = 1; i <= 5; i++) {
@@ -45,7 +45,7 @@ function teste4 () {
 //5
 function teste5 () {
     console.clear();
-    console.log('🚫Tabuada do 5');
+    console.log('Teste 5 -🚫Tabuada do 5');
         for (let i = 1; i <= 10; i++) {
             let multiplicacao = 5;
             multiplicacao *= i;
@@ -57,7 +57,7 @@ function teste5 () {
 //6 - travei peguei resposta
 function teste6 () {
     console.clear();
-    console.log('🚫Contar letras do nome');
+    console.log('Teste 6 -🚫Contar letras do nome');
         let nome = 'Larisa';
         for (let i = 0; i < nome.length; i++) {
             console.log(nome[i]);
@@ -68,7 +68,7 @@ function teste6 () {
 //7 - travei peguei resposta
 function teste7 () {
     console.clear();
-    console.log('🚫Contar até parar no 5');
+    console.log('Teste 7 -🚫Contar até parar no 5');
         let numeroMax = 6;
         for (let i = 1; i <= 10; i++) {
             if (i === 6) {
@@ -82,7 +82,7 @@ function teste7 () {
 //8
 function teste8 () {
     console.clear();
-    console.log('⭕Conte números maior que 5');
+    console.log('Teste 8 -⭕Conte números maior que 5');
         let numeros = [2, 8, 4, 10, 3, 7];
         let tamanho = numeros.length;
         let maiorQueCinco = [];
@@ -99,7 +99,7 @@ function teste8 () {
 //9
 function teste9 () {
     console.clear();
-    console.log('⭕Soma números pares');
+    console.log('Teste 9 -⭕Soma números pares');
         let arrayNove = [];
         let resultado = 0;
         for (i = 0; i <= 10; i += 2) {
@@ -114,7 +114,7 @@ function teste9 () {
 //10
 function teste10 () {
     console.clear();
-    console.log('⭕Contar números negativos')
+    console.log('Teste 10 -⭕Contar números negativos')
         let numerosNegativos = [3, -1, -7, 4, -2, 8];
         let apenasNegativos = [];
         for (let i = 0; i < numerosNegativos.length; i++) {
@@ -131,7 +131,7 @@ function teste10 () {
 //11 - travei peguei resposta
 function teste11 () {
     console.clear();
-    console.log('🚫Encontrar o maior número');
+    console.log('Teste 11 -🚫Encontrar o maior número');
         let maiorNumero = [5, 12, 8, 20, 3];
         let maior = maiorNumero[0];
         for (let i = 1; i < maiorNumero.length; i++) {
@@ -147,7 +147,7 @@ function teste11 () {
 //12 - travei peguei resposta
 function teste12 () {
     console.clear();
-    console.log('🚫Inverter uma string');
+    console.log('Teste 12 -🚫Inverter uma string');
         let nomeContrario = 'Larissa';
         let quebraNome = nomeContrario.split("");
         let nomeInvertido = "";
@@ -161,7 +161,7 @@ function teste12 () {
 //13
 function teste13 () {
     console.clear();
-    console.log('⭕Contar letras específicas');
+    console.log('Teste 13 -⭕Contar letras específicas');
         let palavra = 'banana';
         let contagemLetra = [];
         let contarletra = 'a'
@@ -183,7 +183,7 @@ function teste13 () {
 //14
 function teste14 () {
     console.clear();
-    console.log('⭕Tabuada completa até o 5');
+    console.log('Teste 14 -⭕Tabuada completa até o 5');
         for (let i = 1; i <= 5; i++) {
             for (let x = 1; x <= 10; x++) {
                 let resultadoTabuada = x;
@@ -197,7 +197,7 @@ function teste14 () {
 //15 - travei peguei resposta
 function teste15 () {
     console.clear();
-    console.log('🚫Verificar se todos são números pares');
+    console.log('Teste 15 -🚫Verificar se todos são números pares');
         let localizarNumerosPares = [2, 4, 6, 7, 8, 9];
         let todosPares = true;
         for (let i = 0; i < localizarNumerosPares.length; i++) {
@@ -214,7 +214,7 @@ function teste15 () {
 //16
 function teste16 () {
     console.clear();
-    console.log('⭕Separar positivo e negativo');
+    console.log('Teste 16 -⭕Separar positivo e negativo');
         let listaASeparar = [3, -1, -7, 4, -2, 8];
         let arrayPositivo = [];
         let arrayNegativo = [];
@@ -235,7 +235,7 @@ function teste16 () {
 //17
 function teste17 () {
     console.clear();
-    console.log('⭕Encontrar menor número');
+    console.log('Teste 17 -⭕Encontrar menor número');
         let arrayNumero = [5, 12, 8, 20, 3];
         let menorNumero = arrayNumero[0];
         for (let i = 0; i < arrayNumero.length; i++) {
@@ -251,7 +251,7 @@ function teste17 () {
 //18
 function teste18 () {
     console.clear();
-    console.log('⭕Somar números negativos');
+    console.log('Teste 18 -⭕Somar números negativos');
         let contemNumeros = [3, -1, -7, 4, -2, 8];
         let contemSomaNegativo = 0;
         for (let i = 0; i < contemNumeros.length; i++) {
@@ -267,7 +267,7 @@ function teste18 () {
 //19 
 function teste19 () {
     console.clear();
-    console.log('⭕Criar, contar, somar os numeros positivos e negativos');
+    console.log('Teste 19 -⭕Criar, contar, somar os numeros positivos e negativos');
         let todosOsNumeros = [3, -1, -7, 4, 0, -2, 8];
         let numPositivos = [];
         let numNegativos = [];
