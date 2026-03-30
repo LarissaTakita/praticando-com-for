@@ -26,7 +26,7 @@ body {
 h1 {
     color: white;
     font-size: 100px;
-    padding-top: 50px;    /* espaço do topo até o título */
+    padding-top: 40px;    /* espaço do topo até o título */
     margin-top: 0;   /* sobe o título */
 }
 
@@ -44,7 +44,7 @@ h1 {
     grid-template-columns: repeat(5, 1fr); /* 3 colunas */
 
     gap: 30px; /* espaço entre eles */
-    padding-bottom: 120px; /* espaço dos botões até o fundo */
+    padding-bottom: 140px; /* espaço dos botões até o fundo */
 }
 
 button {
