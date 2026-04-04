@@ -164,7 +164,7 @@ function teste13 () {
     console.log('Teste 13 - ⭕Contar letras específicas');
         let palavra = 'banana';
         let contagemLetra = [];
-        let contarletra = 'a'
+        let contarletra = 'b'
         for (i = 0; i < palavra.length; i++) {
             let encontraLetra = palavra[i];
             if (encontraLetra == contarletra) {
