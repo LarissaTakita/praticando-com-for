@@ -162,9 +162,9 @@ function teste12 () {
 function teste13 () {
     console.clear();
     console.log('Teste 13 - ⭕Contar letras específicas');
-        let palavra = 'arroz';
+        let palavra = 'banana';
         let contagemLetra = [];
-        let contarletra = 'r'
+        let contarletra = 'a'
         for (i = 0; i < palavra.length; i++) {
             let encontraLetra = palavra[i];
             if (encontraLetra == contarletra) {
@@ -173,7 +173,7 @@ function teste13 () {
         } 
         console.log(palavra);
         if (contagemLetra.length > 1) {
-             console.log(`Há ${contagemLetra.length} '${contarletra}s' na palavra ${palavra}`);
+             console.log(`Há ${contagemLetra.length} '${contarletra}'s' na palavra ${palavra}`);
         } else {
              console.log(`Há ${contagemLetra.length} '${contarletra}' na palavra ${palavra}`);
         }
