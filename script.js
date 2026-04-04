@@ -173,7 +173,7 @@ function teste13 () {
         } 
         console.log(palavra);
         if (contagemLetra.length > 1) {
-             console.log(`Há ${contagemLetra.length} '${contarletra}'s' na palavra ${palavra}`);
+             console.log(`Há ${contagemLetra.length} '${contarletra}s' na palavra ${palavra}`);
         } else {
              console.log(`Há ${contagemLetra.length} '${contarletra}' na palavra ${palavra}`);
         }
